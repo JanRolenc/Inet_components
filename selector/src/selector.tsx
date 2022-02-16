@@ -65,7 +65,9 @@ export default class SingleSelect extends Component<{}, State> {
           formatOptionLabel={ (option, meta) => {
 
             return meta.context === "menu"?
-              <div>{option.name}
+              <div>
+                <img src="icon_head.png" alt="icon" />
+                <h2>{option.name}</h2>
                 { option.rel && option.rel.z && <div>Zam. { option.rel.z.map(r => r ) }</div> }
                 { option.rel && option.rel.s && <div>Stud. { option.rel.s.map(r => r) }</div> }
               </div>

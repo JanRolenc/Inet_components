@@ -25,38 +25,16 @@ export interface ColourOption {
   
   
   export const colourOptions: readonly ColourOption[] = [
-    // { id: 1, value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
-    // { id: 2, label: "Leanne Graham, Sincere@april.biz"},
-    // { id: 1, name: "Leanne Graham", username: "Bret", email: "Sincere@april.biz"},
-    // { value: 'blue', label: 'Blue', color: '#0052CC', isDisabled: true },
-    // { value: 'purple', label: 'Purple', color: '#5243AA' },
-    // { value: 'red', label: 'Red', color: '#FF5630', isFixed: true },
-    // { value: 'orange', label: 'Orange', color: '#FF8B00' },
-    // { value: 'yellow', label: 'Yellow', color: '#FFC400' },
-    // { value: 'green', label: 'Green', color: '#36B37E' },
-    // { value: 'forest', label: 'Forest', color: '#00875A' },
-    // { value: 'slate', label: 'Slate', color: '#253858' },
-    // { value: 'silver', label: 'Silver', color: '#666666' },
-
-    { value: '3890', name: 'Zdeněk Machač', rel: { z: ['ÚVT', 'LF'], s: ['FSS'] } },
-    // {
-    //   id: 1, label:{
-    //   name: "Leanne Graham",
-    //   username: "Bret",
-    //   email: "Sincere@april.biz"}
-    // },
-    // {
-    //   id: 2,
-    //   name: "Ervin Howell",
-    //   username: "Antonette",
-    //   email: "Shanna@melissa.tv"
-    // },
-    // {
-    //   id: 3,
-    //   name: "Clementine Bauch",
-    //   username: "Samantha",
-    //   email: "Nathan@yesenia.net"
-    // }
+    { value: '1', name: 'Zdeněk Machač', rel: { z: ['ÚVT', 'ÚVT'], s: ['FI'] } },
+    { value: '2', name: 'Ota Pavel', rel: { z: ['MU', 'PřF'], s: [] } },
+    { value: '3', name: 'Bohumi Hrabal', rel: { z: ['MU', 'ESF'], s: ['ESF'] } },
+    { value: '4', name: 'Jan Skácel', rel: { z: ['MU', 'PrF'], s: [''] } },
+    { value: '5', name: 'Karel Čapek', rel: { z: ['MU', 'FF'], s: ['FF'] } },
+    { value: '6', name: 'Arnošt Lustig', rel: { z: ['MU', 'FSS'], s: ['FSS'] } },
+    { value: '8', name: 'Vladislav Vančura', rel: { z: ['MU', 'FI'], s: [''] } },
+    { value: '9', name: 'Karolina Světlá', rel: { z: ['MU', 'PdF'], s: [''] } },
+    { value: '10', name: 'Alena Mornštajnová', rel: { z: ['MU', 'FSpS'], s: [''] } },
+    { value: '11', name: 'Božena Němcová', rel: { z: ['CEITEC', 'CEITEC'], s: [''] } },
   ];
   
   export interface FlavourOption {
